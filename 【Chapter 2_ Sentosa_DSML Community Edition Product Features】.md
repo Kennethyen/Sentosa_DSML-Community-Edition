@@ -4,7 +4,7 @@
 The entry to the operator flow construction page is shown in the figure, including the operator control area, operator flow control area, theme switching, operator set area, and canvas. The operator set area is where all operator classifications are grouped. The canvas is used to construct and set the properties of operators and operator flows by dragging operators from the operator set area onto the canvas.
 ![](https://i-blog.csdnimg.cn/direct/fb9fc36141a4439eb4f7b27b005c24ac.png#pic_center)
 
-## 2.算子功能
+## 2.Operator Functionality
 The Sentosa_DSML Community Edition currently provides a total of 120 operators, categorized into 11 types: Data Input, Data Output, Row Processing, Column Processing, Data Integration, Statistical Analysis, Feature Engineering, Machine Learning, Linear Programming, Chart Analysis, and Extended Programming. Based on their roles in data analysis, they can also be grouped into Data Input, Data Processing (including Row Processing, Column Processing, Data Integration, and Statistical Analysis), Machine Learning & Linear Programming, Chart Analysis, and Data Output.
 
 (1) Data Input operators primarily provide functionality to read data from local files, file systems, databases, and streaming data sources. Text and EXCEL operators also offer file upload capabilities, allowing users to upload files from the client to the server or HDFS for use in constructing operator flows. In the following section on configuring the properties of input operators, a configuration for deleting and renaming duplicate columns has been added. After configuring the input properties, users can modify data columns using the operator's built-in function to delete and rename columns.

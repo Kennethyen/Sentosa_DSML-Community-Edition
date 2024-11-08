@@ -1,4 +1,3 @@
-﻿@[toc]
 # Chapter 1: Overview of Sentosa_DSML Community Edition
 
 ## 1.What is DSML?
@@ -18,9 +17,6 @@ To provide learning, exchange, and practical application opportunities in machin
 
 
 ## 4.What is Sentosa_DSML Community Edition？![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/51e1c26fede64f57b092be31fe787987.png)
-
-
-[video(video-sWN290ju-1727233206749)(type-csdn)(url-https://live.csdn.net/v/embed/423229)(image-https://img-home.csdnimg.cn/images/20230724024159.png?be=1&origin_url=https://v-blog.csdnimg.cn/asset/6649ff1933b348a648ef79da5436104e/cover/Cover0.jpg)(title-Sentosa_DSML社区版托拉拽开发)]
 
 1.The Sentosa_DSML Community Edition is a data intelligence analysis and mining platform that enables the rapid establishment of predictive models using commercial technologies and their application to business activities, thereby improving decision-making processes. Designed with reference to the industry-standard CRISP-DM model, the Sentosa_DSML Community Edition supports the entire data mining process from raw data to enhanced business outcomes.
 2.The Sentosa_DSML Community Edition offers various modeling methods leveraging machine learning, artificial intelligence, and statistics. Through the methods in the modeling palette, you can generate new information from data and develop predictive models. Each method has its strengths and is suitable for solving specific types of problems. It provides a comprehensive set of algorithms, integrated into the platform in a pluggable, modular, and stackable manner. It also offers complete architecture support for setting up, orchestrating, running, and deploying operators, allowing users to visually stack operators based on actual business scenarios to quickly build models.

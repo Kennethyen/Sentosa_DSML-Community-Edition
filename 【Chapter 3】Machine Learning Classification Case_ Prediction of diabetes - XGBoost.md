@@ -1,4 +1,3 @@
-﻿@[toc]
 # 1、XGBoost Algorithm
 &emsp;&emsp;This article will utilize the diabetes dataset to construct an XGBoost classification prediction model through Python code and the Sentosa_DSML community edition, respectively. Subsequently, the model will be evaluated, including the selection and analysis of evaluation metrics. Finally, the experimental results and conclusions will be presented, demonstrating the effectiveness and accuracy of the model in predicting diabetes classification, providing technical means and decision support for early diagnosis and intervention of diabetes.
 # 2、Comparison of algorithm implementation between Python code and Sentosa_DSML community edition
@@ -34,7 +33,7 @@ print(df.isnull().sum())
 print("原始数据前5行:")
 print(df.head())
 ```
-&emsp;&emsp;读入完成后对数据信息进行统计
+&emsp;&emsp;After reading in, perform statistical analysis on the data information
 ```python
 rcParams['font.family'] = 'sans-serif'
 rcParams['font.sans-serif'] = ['SimHei']
@@ -237,7 +236,7 @@ test_eval_results = evaluate_model(y_test, y_test_pred, dataset_name='测试集 
 加权召回率 (Weighted Recall): 0.9657
 加权 F1 分数 (Weighted F1 Score): 0.9643
 ```
-通过绘制 ROC曲线来评估分类模型在测试集的性能。
+Evaluate the performance of classification models on the test set by plotting ROC curves.
 ```python
 def save_plot(filename):
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
@@ -284,7 +283,7 @@ plot_roc_curve(xgb_model, X_test, y_test)
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/2f929eb5cf964a9a8ef925766960dfd4.png#pic_center)
 &emsp;&emsp;The execution result of the table operator is as follows:
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/adc8885c0a6a47ed95cf3fdba266ac84.jpeg#pic_center)
-## (四)Model visualization
+## (4)Model visualization
 
 1、Implementation in Python code
 ```python

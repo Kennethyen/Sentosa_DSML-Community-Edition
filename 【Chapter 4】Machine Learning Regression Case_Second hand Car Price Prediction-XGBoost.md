@@ -1,5 +1,3 @@
-﻿
-@[toc]
 # 一、XGBoost Algorithm
 &emsp;&emsp;This article aims to predict the transaction price of used cars, and constructs XGBoost regression prediction models through Python code and Sentosa_SSML community version, respectively. The models are evaluated, including the selection and analysis of evaluation indicators. Finally, the experimental conclusion is drawn to ensure the effectiveness and accuracy of the model in the regression prediction of second-hand car prices.
 

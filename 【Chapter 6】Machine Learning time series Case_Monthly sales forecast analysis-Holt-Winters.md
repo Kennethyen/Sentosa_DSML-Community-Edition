@@ -1,4 +1,3 @@
-﻿@[toc]
 # 1、Holt-Winters algorithm
 What is the Holt Winters prediction algorithm?
 &emsp;&emsp;The Holt Winters algorithm is a time series prediction method. Time series prediction methods are used to extract and analyze data and statistical data, and characterize the results, in order to more accurately predict the future based on historical data. The Holt Winters prediction algorithm allows users to smooth time series and use this data to predict areas of interest. The exponential smoothing method assigns weights and values that decrease exponentially based on historical data to reduce the weight values of older data. In other words, in prediction, newer historical data has greater weight than older results.
